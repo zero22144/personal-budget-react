@@ -13,6 +13,7 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import BudgetData from './BudgetData/BudgetData';
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
           </Route>
           <Route path="/">
             <HomePage/>
+            <BudgetData/>
           </Route>
+          
         </Switch>
       </div>
       <Footer/>
